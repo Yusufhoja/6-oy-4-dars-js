@@ -1,0 +1,35 @@
+/* div{
+    border: 1px solid black;
+}
+.d{
+    border: 1px solid black;
+}
+.cardlar{
+    border: 3px solid black;
+}
+.fi{
+    border: 1px solid black;
+} */
+
+h1{
+    color: yellow; 
+}
+p{
+    color: red;
+}
+#carts div{
+    width: 300px;
+    height: 300px;
+background-color: rgb(25, 200, 77);
+margin: 20px;
+text-align: center;
+border-radius: 20px;
+
+}
+#carts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
